@@ -33,5 +33,5 @@ limit: number(number of items on page)
 ![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/Limit50.png "CP")
 
 *Limit=51*
-![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/Limit50.png "CP")
+![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/Limit51.png "CP")
 
