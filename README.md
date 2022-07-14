@@ -53,9 +53,11 @@ lastName: string(length: 2-50)
 picture: string(url)
 }
 ```
-Проводим проверку для обязательных показетелей по созданию Пользователя.
+### Проводим проверку для обязательных показетелей по созданию Пользователя.
 
 ![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/User%20Create.png "CP")
+
+***Сoздаем локальную переменную ID User (userId), с которой продолжаем работу в дальнейшем***
 
 ### Проводим проверку по измерению firstName. По условию firstName: string(length: 2-50)
 
@@ -90,5 +92,7 @@ location: object(Location)
 ![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/User%20email.png "CP")
 
 ***Найдена фича - По проводит PUT для email, но при любом вводимом значение строки, данные в USER не присходит***
+
+### Проводим проверку вывода данных по одному USERs.
 
 
