@@ -95,4 +95,8 @@ location: object(Location)
 
 ### Проводим проверку вывода данных по одному USERs.
 
+![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/User%20the%20ID.png "CP")
 
+### Проводим проверку по удалению конкретного User.
+
+![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/User%20Delete.png "CP")
