@@ -24,6 +24,7 @@ limit: number(number of items on page)
 }
 ```
 Параметр *Limit* - Предельное значение должно находиться в диапазоне [5-50]. Значение по умолчанию: 20
+
 Проведем проверку лимитов по нижнему диапозону граничных значений
 
 ![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/Limit49.png "CP")
