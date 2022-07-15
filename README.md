@@ -26,7 +26,7 @@ limit: number(number of items on page)
 ```
 Параметр *Limit* - Предельное значение должно находиться в диапазоне [5-50]. Значение по умолчанию: 20
 
-Проведем проверку лимитов по нижнему диапозону граничных значений. 
+### 1. Проведем проверку лимитов по нижнему диапозону граничных значений. 
 
 *Limit=49*
 
@@ -53,13 +53,13 @@ lastName: string(length: 2-50)
 picture: string(url)
 }
 ```
-### Проводим проверку для обязательных показетелей по созданию Пользователя.
+### 2. Проводим проверку для обязательных показетелей по созданию Пользователя.
 
 ![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/User%20Create.png "CP")
 
 ***Сoздаем локальную переменную ID User (userId), с которой продолжаем работу в дальнейшем***
 
-### Проводим проверку по измерению firstName. По условию firstName: string(length: 2-50)
+### 3. Проводим проверку по измерению firstName. По условию firstName: string(length: 2-50)
 
 #### Проверям пустое и граничные значения firstName.
 ![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/FirstName.png "CP")
@@ -85,7 +85,7 @@ picture: string(url)
 location: object(Location)
 }
 ```
-### Проводим проверку по измерению email.
+### 4. Проводим проверку по измерению email.
 
 #### Проверям, что изменение email в USER невозможно.
 
@@ -93,11 +93,11 @@ location: object(Location)
 
 ***Найдена фича - По проводит PUT для email, но при любом вводимом значение строки, данные в USER не присходит***
 
-### Проводим проверку вывода данных по одному USERs.
+### 5. Проводим проверку вывода данных по одному USER.
 
 ![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/User%20the%20ID.png "CP")
 
-### Проводим проверку по удалению конкретного User.
+### 6. Проводим проверку по удалению конкретного User.
 
 ![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/User%20Delete.png "CP")
 
