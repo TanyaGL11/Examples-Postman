@@ -100,3 +100,6 @@ location: object(Location)
 ### Проводим проверку по удалению конкретного User.
 
 ![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/User%20Delete.png "CP")
+
+
+Коллекцию можно здесь [скачать](https://github.com/TanyaGL11/Examples-Postman/blob/main/User.postman_collection.json )
