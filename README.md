@@ -93,7 +93,7 @@ location: object(Location)
 
 ![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/User%20email.png "CP")
 
-***Найдена фича - По проводит PUT для email, но при любом вводимом значение строки, данные в USER не присходит***
+***Найдена фича - По проводит PUT для email, но при любом вводимом значение строки, изменение данных в USER не присходит***
 
 ### 5. Проводим проверку вывода данных по одному USER.
 
