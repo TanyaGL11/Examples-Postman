@@ -59,6 +59,8 @@ picture: string(url)
 
 ***Сoздаем локальную переменную ID User (userId), с которой продолжаем работу в дальнейшем***
 
+![Скрин postman](https://github.com/TanyaGL11/Examples-Postman/blob/main/Create%20userId.png "CP")
+
 ### 3. Проводим проверку по измерению firstName. По условию firstName: string(length: 2-50)
 
 #### Проверям пустое и граничные значения firstName.
